@@ -1,7 +1,7 @@
 import React from "react"
 import { Animal } from "./animal/Animal"
 import { Employee } from "./employee/Employee"
-import { Location } from "./locations/Location"
+import { Location } from "./location/Location"
 import "./Kennel.css"
 import { Customer } from "./customer/Customer"
 
