@@ -5,7 +5,10 @@ export const LocationContext = React.createContext()
 
 // This component establishes what data can be used
 export const LocationProvider = (props) => {
-    const [locations, setLocations] = useState([])
+
+    const [locations, setLocations] = useState([]) 
+    // ^^ [initial value of state variable, a function to set the value of the set variable]
+
 
     const getLocations = () => {
         return fetch("http://localhost:8088/locations")
@@ -28,9 +31,13 @@ export const LocationProvider = (props) => {
     This allows any child elements to access them.
     */
     return (
-        <LocationContext.Provider value={{
+
+        <LocationContext.Provider value={
+            {
             locations, addLocation, getLocations
-        }}>
+        }
+        }>
+
             {props.children}
             </LocationContext.Provider>
     )

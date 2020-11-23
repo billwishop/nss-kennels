@@ -2,11 +2,21 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    background-color: #FFC700;
+
 }
 
 .animal {
     flex-basis: 28%;
-    margin: 1em;
+
+    margin: 2em;
     padding: 1em;
-    border: 1px solid goldenrod;
+    box-shadow:  
+            5px 5px #C8B9FF, 
+            8px 8px #605BFF,
+            11px 11px #C8B9FF,
+            14px 14px #605BFF; 
+    background-color: white;
+
 }
