@@ -1,0 +1,15 @@
+.employees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #C8B9FF;
+}
+
+.employee {
+    flex-basis: 28%;
+    margin: 1em;
+    padding: 1em;
+    border: 3px solid #FF8F87;
+    box-shadow: 0 8px 6px -6px black;
+    background-color: white;
+}
