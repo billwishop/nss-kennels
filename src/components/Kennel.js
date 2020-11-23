@@ -4,12 +4,14 @@ import { Employee } from "./employee/Employee"
 import { Location } from "./location/Location"
 import "./Kennel.css"
 import { Customer } from "./customer/Customer"
+
 import { LocationProvider } from "./location/LocationProvider"
 import { LocationList } from "./location/LocationList"
 
 export const Kennel = () => (
     <>
         <h1>Nashville Kennels</h1>
+
         <small>Loving care when you're not there.</small>
         <address>
             <div>Visit us at the Nashville North Location</div>
@@ -31,9 +33,11 @@ export const Kennel = () => (
         </article>
 
         <h2>Locations</h2>
+
             <LocationProvider>
                 <LocationList />
             </LocationProvider>
+
 
         <h2>Customers</h2>
         <article className="customers">
