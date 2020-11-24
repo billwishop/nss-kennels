@@ -9,7 +9,6 @@
 
 .animal {
     flex-basis: 28%;
-
     margin: 2em;
     padding: 1em;
     box-shadow:  
@@ -18,5 +17,4 @@
             11px 11px #C8B9FF,
             14px 14px #605BFF; 
     background-color: white;
-
 }

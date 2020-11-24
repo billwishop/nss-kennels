@@ -2,15 +2,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    background-color: #C8B9FF;
+    background-color: #33B2D6;
 }
 
 .employee {
     flex-basis: 28%;
     margin: 2em;
     padding: 1em;
-    border: 3px solid #FF8F87;
-    /* box-shadow: 0 8px 6px -6px black; */
+    box-shadow:  
+            5px 5px #C8B9FF, 
+            8px 8px #605BFF,
+            11px 11px #C8B9FF,
+            14px 14px #605BFF; 
     background-color: white;
 }
