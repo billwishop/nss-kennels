@@ -1,21 +1,29 @@
 import React, { useContext, useEffect } from "react"
+import { LocationContext } from "../location/LocationProvider"
 import { Employee } from "./Employee"
 import { EmployeeContext } from "./EmployeeProvider"
 
 export const EmployeeList = () => {
     const { employees, getEmployees } = useContext(EmployeeContext)
+    const { locations, getLocations } = useContext(LocationContext)
 
     useEffect(
         () => {
-            getEmployees()
+            getLocations()
+            .then(getEmployees)
         },
         []
     )
 
     return (
         <div className="employees">
+            {console.log(locations, employees)}
             {
-                employees.map(employee => <Employee key={employee.id} employee={employee} />)
+                employees.map(employee => {
+                    const clinic = locations.find(loc => loc.id === employee.locationId)
+                    
+                return <Employee key={employee.id} employee={employee} location={clinic} />
+            })
             }
         </div>
     )
