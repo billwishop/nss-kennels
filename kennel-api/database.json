@@ -9,15 +9,15 @@
         },
         {
             "id": 2,
-            "name": "Doodlies",
-            "breed": "Poodly",
+            "name": "Angel",
+            "breed": "Beagle",
             "customerId": 3,
             "locationId": 2
         },
         {
             "id": 3,
-            "name": "Doddleeys",
-            "breed": "Poddleey",
+            "name": "Hankie",
+            "breed": "Weimaraner",
             "customerId": 2,
             "locationId": 2
         }
