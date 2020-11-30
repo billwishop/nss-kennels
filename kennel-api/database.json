@@ -20,6 +20,20 @@
       "breed": "Weimaraner",
       "customerId": 2,
       "locationId": 2
+    },
+    {
+      "name": "Corky",
+      "breed": "Weimaraner",
+      "locationId": 1,
+      "customerId": 4,
+      "id": 4
+    },
+    {
+      "name": "Poni-Boi",
+      "locationId": 1,
+      "breed": "Pug",
+      "customerId": 3,
+      "id": 5
     }
   ],
   "customers": [
