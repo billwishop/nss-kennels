@@ -24,19 +24,28 @@
   ],
   "customers": [
     {
-      "id": 1,
-      "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "email": "will@aol.com",
+      "password": "YES",
+      "name": "Will Bishop",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Anna Paul",
-      "address": "7003 Chestnut Ct"
+      "email": "reginal@aol.com",
+      "password": "YES",
+      "name": "Reginald Reggie",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Leanna Fall",
-      "address": "7004 Chestnut Ct"
+      "email": "tony@aol.com",
+      "password": "YES",
+      "name": "Tony Tanner",
+      "id": 3
+    },
+    {
+      "email": "tonya@aol.com",
+      "password": "YES",
+      "name": "Tonya Tanner",
+      "id": 4
     }
   ],
   "employees": [
