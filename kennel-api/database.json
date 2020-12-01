@@ -34,6 +34,13 @@
       "breed": "Pug",
       "customerId": 3,
       "id": 5
+    },
+    {
+      "name": "Rosemont",
+      "locationId": 1,
+      "customerId": 1,
+      "breed": "Kitty Cat",
+      "id": 6
     }
   ],
   "customers": [

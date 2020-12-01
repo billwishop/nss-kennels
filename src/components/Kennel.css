@@ -19,7 +19,7 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
-    margin-left: 2em;
+    /* margin-left: 2em; */
 }
 
 p {
