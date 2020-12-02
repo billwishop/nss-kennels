@@ -1,10 +1,12 @@
-import React, { useContext, useEffect } from "react"
+import React, { useContext, useEffect, useState } from "react"
 import { Animal } from "./Animal"
 import { AnimalContext } from "./AnimalProvider"
 
 
 export const AnimalList = ({history}) => {
-    const { animals, getAnimals } = useContext(AnimalContext)
+    const { animals, searchTerms, getAnimals } = useContext(AnimalContext)
+
+    const [ filteredAnimals, setFiltered ] = useState([])
 
     useEffect(
         () => {
@@ -12,6 +14,16 @@ export const AnimalList = ({history}) => {
         },
         []
     )
+
+    useEffect(() => {
+        if (searchTerms !== ""){
+            // console.log(searchTerms)
+            const subset = animals.filter(animal => animal.name.toLowerCase().includes(searchTerms))
+            setFiltered(subset)
+        } else {
+            setFiltered(animals)
+        }
+    }, [searchTerms, animals])
 
     return (
         <div>
@@ -21,7 +33,7 @@ export const AnimalList = ({history}) => {
             </button>
             <div className="animals">
                 {
-                    animals.map(animal => {
+                    filteredAnimals.map(animal => {
                         
                         return <Animal key={animal.id} 
                         animal={animal} />
