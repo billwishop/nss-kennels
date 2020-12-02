@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
-import { AnimalContext, Animalcontext } from "./AnimalProvider"
+import { AnimalContext } from "./AnimalProvider"
 import "./Animal.css"
 
 export const AnimalDetails = (props) => {
