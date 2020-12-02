@@ -41,6 +41,34 @@
       "customerId": 1,
       "breed": "Kitty Cat",
       "id": 6
+    },
+    {
+      "id": 7,
+      "name": "Paula",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 9,
+      "name": "Rodney",
+      "breed": "Weimaraner",
+      "customerId": 2,
+      "locationId": 2
+    },
+    {
+      "name": "HotDog",
+      "breed": "Weimaraner",
+      "locationId": 1,
+      "customerId": 4,
+      "id": 10
+    },
+    {
+      "name": "Good-Boi",
+      "locationId": 1,
+      "breed": "Pug",
+      "customerId": 3,
+      "id": 11
     }
   ],
   "customers": [
