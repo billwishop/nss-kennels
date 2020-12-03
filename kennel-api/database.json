@@ -135,22 +135,16 @@
       "locationId": 1
     },
     {
-      "id": 4,
-      "name": "Walter Skinner",
-      "animalId": 3,
-      "locationId": 2
-    },
-    {
-      "name": "CSM",
-      "locationId": 2,
-      "animalId": 3,
-      "id": 5
-    },
-    {
       "name": "Frohike",
       "locationId": 1,
-      "animalId": 1,
-      "id": 6
+      "animalId": 6,
+      "id": 4
+    },
+    {
+      "name": "Skinner",
+      "locationId": 2,
+      "animalId": 9,
+      "id": 5
     }
   ],
   "locations": [
