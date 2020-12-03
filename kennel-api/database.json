@@ -5,6 +5,7 @@
       "name": "Doodles",
       "breed": "Poodle",
       "customerId": 1,
+      "treatment": "",
       "locationId": 2
     },
     {
@@ -12,6 +13,7 @@
       "name": "Angel",
       "breed": "Beagle",
       "customerId": 3,
+      "treatment": "",
       "locationId": 2
     },
     {
@@ -19,6 +21,7 @@
       "name": "Hankie",
       "breed": "Weimaraner",
       "customerId": 2,
+      "treatment": "",
       "locationId": 2
     },
     {
@@ -26,49 +29,64 @@
       "breed": "Weimaraner",
       "locationId": 1,
       "customerId": 4,
+      "treatment": "",
       "id": 4
     },
     {
+      "id": 5,
       "name": "Poni-Boi",
-      "locationId": 1,
       "breed": "Pug",
-      "customerId": 3,
-      "id": 5
+      "locationId": 1,
+      "treatment": "Needs good food",
+      "customerId": 3
     },
     {
+      "id": 6,
       "name": "Rosemont",
-      "locationId": 1,
-      "customerId": 1,
       "breed": "Kitty Cat",
-      "id": 6
+      "locationId": 1,
+      "treatment": "Less food",
+      "customerId": 3
     },
     {
       "id": 7,
       "name": "Paula",
       "breed": "Poodle",
-      "customerId": 1,
-      "locationId": 2
+      "locationId": 2,
+      "treatment": "Little bits of ham",
+      "customerId": 4
     },
     {
       "id": 9,
       "name": "Rodney",
       "breed": "Weimaraner",
-      "customerId": 2,
-      "locationId": 2
+      "locationId": 2,
+      "treatment": "Needs more medicine!!",
+      "customerId": 3
     },
     {
       "name": "HotDog",
       "breed": "Weimaraner",
+      "treatment": "",
       "locationId": 1,
       "customerId": 4,
       "id": 10
     },
     {
       "name": "Good-Boi",
+      "treatment": "",
       "locationId": 1,
       "breed": "Pug",
       "customerId": 3,
       "id": 11
+    },
+    {
+      "name": "Pupperton",
+      "breed": "Puppy",
+      "locationId": 1,
+      "treatment": "Medicine!!!!",
+      "customerId": 3,
+      "id": 12
     }
   ],
   "customers": [
