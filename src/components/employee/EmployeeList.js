@@ -5,7 +5,7 @@ import { EmployeeContext } from "./EmployeeProvider"
 import { AnimalContext } from "../animal/AnimalProvider"
 import {Link} from "react-router-dom"
 
-export const EmployeeList = (props) => {
+export const EmployeeList = ({history}) => {
     const { employees, getEmployees } = useContext(EmployeeContext)
     const { locations, getLocations } = useContext(LocationContext)
     const { animals, getAnimals } = useContext(AnimalContext)
@@ -22,7 +22,7 @@ export const EmployeeList = (props) => {
     return (
         <div>
             <h2>Employees</h2>
-            <button onClick={() => props.history.push("/employees/create")}>
+            <button onClick={() => history.push("/employees/create")}>
                 Add Employee
             </button>
         <div className="employees">

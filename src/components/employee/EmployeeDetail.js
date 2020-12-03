@@ -4,10 +4,11 @@ import {LocationContext} from "../location/LocationProvider"
 import {EmployeeContext} from "./EmployeeProvider"
 import "./Employee.css"
 
+
 export const EmployeeDetail = (props) => {
     const {animals, getAnimals} = useContext(AnimalContext)
     const {locations, getLocations} = useContext(LocationContext)
-    const {employees, getEmployees} = useContext(EmployeeContext)
+    const {employees, getEmployees, removeEmployee} = useContext(EmployeeContext)
 
     const [animal, setAnimal] = useState({})
     const [employee, setEmployee] = useState({})
@@ -51,6 +52,15 @@ export const EmployeeDetail = (props) => {
                             : `Currently taking care of ${animal.name}`
                         }
                     </div>
+                    <button onClick={() =>{
+                        removeEmployee(employee.id)
+                        .then(() => {
+                            props.history.push("/employees")
+                        })
+                    }
+                    }>
+                        Remove Employee
+                    </button>
                 </section>
             </div>
         </div>
